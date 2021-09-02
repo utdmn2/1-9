@@ -16,17 +16,48 @@ main {
 }
 
 .service {
+  position: relative;
   width: 300px;
   background-color: #EEE;
+  margin-right: 30px;
+  padding:10px;
 }
 
-.service-image {
+.service:last-child {
+  margin-right: 0;
+}
+.title {
+  padding-top:15px;
+  padding-bottom: 5px;
+}
+
+.flow1 {
   height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.flow2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.flow3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
 }
 
 .step {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: inline-block;
-  padding: 3px 0;
+  padding: 4px 5px;
   background-color: #FF9A4B;
   color: #FFF;
   font-size: 15px;
